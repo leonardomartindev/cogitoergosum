@@ -1,16 +1,58 @@
-# React + Vite
+# CogitoErgoSum
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto fictício desenvolvido para estudo e prática de animações com **GSAP (GreenSock Animation Platform)**.
 
-Currently, two official plugins are available:
+## 📚 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é um projeto de aprendizado focado em explorar as capacidades do GSAP para criar animações suaves e interativas em aplicações React. O projeto implementa diversas técnicas de animação baseadas em scroll, incluindo scroll suave, triggers, pinning e animações sequenciais.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Biblioteca JavaScript para construção de interfaces
+- **Vite** - Build tool e dev server
+- **GSAP** - Biblioteca de animações JavaScript
+- **@gsap/react** - Hook React para GSAP
+- **Tailwind CSS** - Framework CSS utilitário
 
-## Expanding the ESLint configuration
+## 🎨 Plugins GSAP Utilizados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ScrollTrigger** - Animações baseadas em scroll
+- **ScrollSmoother** - Scroll suave e efeitos de parallax
+- **SplitText** - Animação de texto dividido em palavras/caracteres
+
+## ✨ Funcionalidades de Animação
+
+- **Scroll Suave** - Implementação de scroll suave com ScrollSmoother
+- **Animações de Texto** - Efeitos de revelação de texto usando SplitText
+- **Contadores Animados** - Contadores numéricos que animam durante o scroll
+- **Animações Sequenciais** - Timelines complexas com múltiplas animações
+- **Pinning de Elementos** - Fixação de elementos durante o scroll
+- **Efeitos de Parallax** - Movimento de elementos em diferentes velocidades
+- **Stagger Animations** - Animações escalonadas para múltiplos elementos
+
+## 🚀 Como Executar
+
+1. Instale as dependências:
+
+```bash
+pnpm install
+```
+
+2. Execute o servidor de desenvolvimento:
+
+```bash
+pnpm dev
+```
+
+3. Acesse `http://localhost:5173` no navegador
+
+## 📦 Scripts Disponíveis
+
+- `pnpm dev` - Inicia o servidor de desenvolvimento
+- `pnpm build` - Cria a build de produção
+- `pnpm preview` - Visualiza a build de produção
+- `pnpm lint` - Executa o linter
+
+## 📝 Notas
+
+Este é um projeto de estudo e não possui propósito comercial. Foi criado exclusivamente para aprender e experimentar com as funcionalidades do GSAP.
