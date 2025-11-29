@@ -6,7 +6,7 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { SplitText } from "gsap/SplitText";
 import Hero from "./components/home/hero";
 import Header from "./components/header/header";
-import CaseSection from "./components/caseSection/caseSection";
+import CaseSection from "./components/caseSection/CaseSection";
 import PillarsSection from "./components/pillarsSection/PillarsSection";
 import QuoteIntro from "./components/quoteSection/QuoteIntro";
 import QuoteSection from "./components/quoteSection/QuoteSection";
