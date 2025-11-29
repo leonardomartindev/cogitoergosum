@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CTASection() {
   return (
-    <section className="relative w-full min-h-[80vh] bg-[#0C0C0C] text-[#F7F4EB] font-['Geist'] overflow-hidden px-4 sm:px-6 md:px-12 py-12 sm:py-16 md:py-20 lg:py-0 flex items-center justify-center">
+    <section className="relative w-full min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:h-screen bg-[#0C0C0C] text-[#F7F4EB] font-['Geist'] overflow-hidden px-4 sm:px-6 md:px-12 py-8 sm:py-12 md:py-16 lg:py-0 flex items-center justify-center">
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
         <div className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] bg-[#F7F4EB] rounded-full blur-[120px] opacity-[0.03]"></div>
         <div className="absolute bottom-[-10%] right-[-10%] w-[40vw] h-[40vw] bg-[#F7F4EB] rounded-full blur-[100px] opacity-[0.02]"></div>
@@ -11,8 +11,8 @@ export default function CTASection() {
       <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-[#F7F4EB] rounded-full opacity-20 animate-[float_10s_ease-in-out_infinite] z-0"></div>
       <div className="absolute top-3/4 right-1/3 w-1.5 h-1.5 bg-[#F7F4EB] rounded-full opacity-10 animate-[float_14s_ease-in-out_infinite_reverse] z-0"></div>
 
-      <div className="w-full max-w-[1400px] grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-center relative z-10">
-        <div className="flex flex-col gap-6 sm:gap-8 order-2 lg:order-1">
+      <div className="w-full max-w-[1400px] grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center relative z-10">
+        <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-8 order-2 lg:order-1">
           <div className="flex items-center gap-3 opacity-60">
             <span className="h-px w-8 sm:w-12 bg-[#F7F4EB]"></span>
             <p className="text-[10px] sm:text-xs uppercase tracking-[0.3em]">
@@ -20,7 +20,7 @@ export default function CTASection() {
             </p>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light leading-[1.1] tracking-tight relative">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-light leading-[1.1] tracking-tight relative">
             <span className="absolute -left-6 md:-left-8 top-2 text-xs md:text-sm opacity-20 hidden md:block">
               01
             </span>
@@ -28,12 +28,12 @@ export default function CTASection() {
             jornada de mil quilômetros começa com um único passo.
           </h2>
 
-          <p className="text-zinc-400 text-base sm:text-lg md:text-xl max-w-lg leading-relaxed">
+          <p className="text-zinc-400 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg leading-relaxed">
             Junte-se à ágora digital. Receba ensaios semanais e garanta seu
             lugar na próxima turma.
           </p>
 
-          <form className="mt-4 sm:mt-6 flex flex-col sm:flex-row gap-0 w-full max-w-md border-b border-zinc-700 focus-within:border-[#F7F4EB] transition-colors duration-300">
+          <form className="mt-3 sm:mt-4 md:mt-6 flex flex-col sm:flex-row gap-0 w-full max-w-md border-b border-zinc-700 focus-within:border-[#F7F4EB] transition-colors duration-300">
             <input
               type="email"
               placeholder="Seu e-mail acadêmico"
@@ -69,7 +69,7 @@ export default function CTASection() {
           </p>
         </div>
 
-        <div className="relative w-full flex justify-center lg:justify-end order-1 lg:order-2 py-8 sm:py-10 md:py-12 lg:py-12 pr-0 sm:pr-4 md:pr-6 group">
+        <div className="relative w-full flex justify-center lg:justify-end order-1 lg:order-2 py-4 sm:py-6 md:py-8 lg:py-12 pr-0 sm:pr-4 md:pr-6 group">
           <div className="absolute top-[-10%] right-[-5%] w-[120%] h-[120%] hidden md:flex items-center justify-center pointer-events-none z-0">
             <svg
               className="w-full h-full opacity-[0.08] animate-[spin_60s_linear_infinite]"
